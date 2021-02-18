@@ -1,0 +1,23 @@
+Idea general: obtiene el desplazamiento y la dimensión de las cajas y verifica si se superponen.
+
+Si desea que se actualice, puede usar setInterval:
+
+		function detectOverlapping() {
+    		// código que detecta si el cuadro se superpone con un cuadro en movimiento
+    		setInterval(detectOverlapping, 25);
+		}
+		detectOverlapping();  
+
+
+
+
+
+Además, tenga en cuenta que puede optimizar la función para su ejemplo específico.
+
+-no tiene que leer las dimensiones de la caja repetidamente (como hago en mi código) ya que son fijas. Puede leerlos al cargar la página (en una variable) y luego simplemente leer la variable
+
+-la posición horizontal de la pequeña caja no cambia (a menos que el usuario cambie el tamaño de la ventana). Las posiciones verticales de las cajas del coche no cambian. Por lo tanto, esos valores tampoco tienen que leerse repetidamente, sino que también pueden almacenarse en variables.
+
+-no tiene que probar si la pequeña caja se superpone con todas las cajas del automóvil en todo momento. Puede, según su posición vertical, averiguar en qué carril se encuentra actualmente la caja y probar solo la caja de automóvil específica de ese carril.
+
+﻿

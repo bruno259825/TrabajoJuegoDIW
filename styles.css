@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+}
+
+#capa {
+    position: relative;
+    margin: 5px;
+    background-image: url('img/personajes/abajo.png');
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    z-index: 100;
+    left: 110px;
+    top: 140px;
+}
+
+#paredIzq {
+    width: 27px;
+    height: 500px;
+    background-image: url('img/obstaculos/vertical.jpg');
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+#puerta {
+    width: 80px;
+    height: 92px;
+    position: absolute;
+    left: 100px;
+    top: 114px;
+}
+
+#puerta img {
+    width: 100%;
+    height: 100%;
+}
+
+#paredDer {
+    width: 27px;
+    height: 500px;
+    background-image: url('img/obstaculos/vertical.jpg');
+    position: absolute;
+    left: 900px;
+    top: 200px;
+}
+
+#paredArri {
+    width: 800px;
+    height: 26px;
+    background-image: url('img/obstaculos/horizontal.jpg');
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+#paredAba {
+    width: 827px;
+    height: 26px;
+    background-image: url('img/obstaculos/horizontal.jpg');
+    position: absolute;
+    left: 100px;
+    top: 700px;
+}
+
+
+/**RELLENOS**/
+
+.relleno {
+    background-image: url('img/obstaculos/relleno.jpg');
+    background-repeat: repeat;
+    position: absolute;
+}
+
+#relleno1 {
+    width: 180px;
+    height: 150px;
+    left: 127px;
+    top: 300px;
+}
+
+#relleno2 {
+    width: 500px;
+    height: 100px;
+    left: 307px;
+    top: 350px;
+}
+
+#relleno3 {
+    width: 250px;
+    height: 62px;
+    left: 427px;
+    top: 226px;
+}
+
+#relleno4 {
+    width: 93px;
+    height: 62px;
+    top: 226px;
+    left: 807px;
+}

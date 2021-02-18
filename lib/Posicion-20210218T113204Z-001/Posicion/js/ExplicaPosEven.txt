@@ -1,0 +1,25 @@
+Para poder trabajar con manejadores de eventos Cross-Browser, es importante que exista un único objeto que permite acceder a las propiedades más importantes:
+
+Propiedad / Método			Propósito
+type 					Tipo del evento, por ejemplo, click
+
+target					Elemento que lanzó el evento
+
+data					Datos pasados al manejador
+
+pageX, pageY				Coordenadas relativas al documento del ratón en el momento de lanzarse el evento
+
+result					Valor devuelto por el último manejador
+
+timestamp				Tiempo en el que se lanzó el evento
+
+preventDefault()			Previene el comportamiento por defecto del navegador
+
+idDefaultPrevented()			Averigua si se ha detenido el comportamiento por defecto
+
+stopPropagation()			Detiene el burbujeo del evento hacia los elementos superiores
+
+isPropagationStopped()			Averigua si se ha detenido el burbujeo del evento
+
+Este objeto se obtiene como parámetro de la función manejadora del evento. 
+

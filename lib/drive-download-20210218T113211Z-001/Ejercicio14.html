@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">Ejercicio 14</title>     
+    <style type="text/css">
+        #capa{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            margin:5px;
+        }
+        
+        #pared {
+				width: 4px;
+				height: 500px;
+				background-color:blue;
+				position:absolute;
+				left: 500px;
+				top:100px;
+		}
+    </style>
+</head>
+<body>
+	<input type="button" value="Arriba" id="arriba">
+	<input type="button" value="Abajo" id="abajo">
+
+	<input type="button" value="Izquierda" id="izquierda">
+	<input type="button" value="Derecha" id="derecha">
+
+	<input type="button" value="Stop" id="stop">
+	<input type="button" value="Vaciar cola" id="vaciar">
+
+	<div id="capa"></div>
+	<div id="pared"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/codigo.js"></script>
+</body>
+</html>
