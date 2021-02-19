@@ -1,1 +1,0 @@
-Extensión JQuery para devolver las colisiones entre dos selectores. Maneja el relleno, los márgenes, los bordes y puede determinar la superposición o la parte exterior. Devuelve objetos "superpuestos" de JQuery. Requiere: jquery1.8.3 +, los ejemplos también requieren: jqueryui1.9.2 +

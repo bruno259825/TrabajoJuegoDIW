@@ -1,1 +1,0 @@
-Se combina con jquery-ui-draggable 1.9.2+ y jquery-collision 1.0.2+. Proporciona eventos de colisión mientras se arrastra y maneja la prevención de colisiones. La configuración de colisión y contención es jerárquica y extensible, lo que permite interacciones complejas.
